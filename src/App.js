@@ -21,7 +21,6 @@ const Nav = styled.nav`
 
 const NavLink = styled(Link)`
     padding: 0.5em;
-  text-decoration: none;
 `;
 
 function App() {
