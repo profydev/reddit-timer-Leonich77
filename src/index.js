@@ -19,7 +19,7 @@ ReactDOM.render(
       <Navbar />
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="search" element={<Search />} />
+        <Route path="/search" element={<Search />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
