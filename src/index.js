@@ -8,6 +8,7 @@ import theme from './theme';
 import App from './App';
 import Search from './Search';
 import NotFound from './NotFound';
+import Header from './Header';
 
 // eslint-disable-next-line react/jsx-filename-extension
 ReactDOM.render(
@@ -15,9 +16,10 @@ ReactDOM.render(
     <BrowserRouter>
       <Normalize />
       <GlobalStyle />
+      <Header />
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="search" element={<Search />} />
+        <Route path="/search" element={<Search />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
