@@ -6,7 +6,8 @@ import { ReactComponent as Logo } from './img/logo.svg';
 const HeaderBox = styled.header`
   display: flex;
   flex-direction: row;
-  padding: 1em;
+  padding-top: 2em;
+  padding-left: 5em;
 `;
 
 const Nav = styled.nav`
@@ -15,7 +16,8 @@ const Nav = styled.nav`
 `;
 
 const NavLink = styled(Link)`
-    padding: 0.5em;
+  padding-top: 0.5em;
+  padding-left: 2.5em;
 `;
 
 export default function Header() {
